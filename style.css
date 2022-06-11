@@ -1,0 +1,31 @@
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#calc-box {
+    display: flex;
+    width: 50%;
+    max-width: 500px;
+    height: 700px;
+    border: 1px solid black;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+#calc-component {
+    margin: 10px auto 100px auto;
+    border: 1px solid red;
+    width: 80%;
+    height: 50px;
+    margin-top: 10%;
+} 
+
+button {
+    width: 30%;
+    margin-left: 2%;
+}
+
+#calc-options {
+    
+}
