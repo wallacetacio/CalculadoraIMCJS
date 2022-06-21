@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+    background: darkslategray;
+}
+
 #container {
     display: flex;
     justify-content: center;
@@ -8,24 +14,47 @@
     width: 50%;
     max-width: 500px;
     height: 700px;
-    border: 1px solid black;
     margin-top: 10%;
     flex-direction: column;
+    background: gray;
+    background: linear-gradient( 90deg, gray 0%, rgb(39, 37, 37) 10%, rgb(163, 161, 153) 100%);
+    box-shadow: inset 0 0 1em rgb(70, 69, 65), 0 0 1em rgb(8, 8, 8);
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 5%;
 }
 
 #calc-component {
-    margin: 10px auto 100px auto;
-    border: 1px solid red;
+    margin: 50px auto 0px auto;
     width: 80%;
     height: 50px;
     margin-top: 10%;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    background: black;    
 } 
 
 button {
+    margin-top: 10%;
     width: 30%;
+    height: 45px;
     margin-left: 2%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
 }
 
-#calc-options {
-    
+#instruction {
+    margin: auto;
+    font-size: 24px;
+    color: white;
+}
+
+#submit {
+    background: green;
+}
+
+#clean {
+    background: red;
+    margin-left: 35% ;
 }
